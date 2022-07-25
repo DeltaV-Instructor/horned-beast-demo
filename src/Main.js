@@ -10,12 +10,7 @@ class Main extends React.Component {
       <Pizza  pie="Detroit" toppings="Cheese" crust="Detroit Style" />
       <Pizza  pie="Detroit" toppings="Cheese" crust="Detroit Style" />
 
-      <Pizza  pie="Detroit" toppings="Cheese" crust="Detroit Style" />
-
-      <Pizza  pie="Detroit" toppings="Cheese" crust="Detroit Style" />
-
-      <Pizza  pie="Detroit" toppings="Cheese" crust="Detroit Style" />
-
+   
       </main>
     );
   }
