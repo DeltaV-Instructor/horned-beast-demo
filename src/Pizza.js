@@ -7,7 +7,7 @@ class Pizza extends React.Component {
 
    
       <article>
-        <h3>{this.props.pie}</h3>
+        <h3>{this.props.pizzaName}</h3>
         <p>Is this your favorite pizza</p>
       </article>
     )
