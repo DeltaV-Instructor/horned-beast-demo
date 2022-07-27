@@ -81,7 +81,7 @@ pizzaGot = () => {
         {/* 2 buttons */}
         <div>{this.state.pizzaNeed ? 'I need Pizza' : ''}</div>
         <Button onClick={this.pizzaNeeded}>I need Pizza!</Button>
-        <Button onClick={this.pizzaGot}>I got some Pizza!</Button>
+        <Button variant="success" onClick={this.pizzaGot}>I got some Pizza!</Button>
       </article>
     )
   }
