@@ -5,7 +5,7 @@ render() {
   return(
 
     <header> 
-      <h1>Pizza of 301</h1>
+      <h1>Pizza of 301{this.props.pizzas}</h1>
     </header>
   );
 }
