@@ -50,7 +50,7 @@ class Pizza extends React.Component {
         as soon as it was loaded it was invoked and were in a loop yikes. 
         so we create a helper function. 
         */}
-        <h3 onClick={this.handleHeadlineClick} >{this.props.pizzaName}</h3>
+        <h4 onClick={this.handleHeadlineClick} >{this.props.pizzaName}</h4>
         <img 
           src={this.props.image_URL}
           alt={this.props.pizzaName} 
